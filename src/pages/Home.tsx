@@ -2,9 +2,8 @@ import Navbar from "../components/Navbar";
 
 function Home() {
     return (
-        <div className="text-red-400">
+        <div>
             <Navbar />
-            <h1>Home</h1>
         </div>
     );
 }
