@@ -15,12 +15,14 @@ const ClientLogos = () => {
                     <div className="flex-grow border-t border-white opacity-25 ml-4 hidden md:block"></div>
                 </div>
                 <div className="flex flex-wrap justify-center gap-x-10 gap-y-4 md:gap-x-32">
-                    {logos.map((logo) => (
+                    {logos.map((logo, index) => (
                         <img
                             key={logo.name}
                             src={logo.src}
                             alt={logo.alt}
                             className="h-7 md:h-10 opacity-75 hover:opacity-100 transition-opacity grow-0"
+                            data-aos-duration={`${1000 + index * 300}`}
+                            data-aos="fade-up"
                         />
                     ))}
                 </div>

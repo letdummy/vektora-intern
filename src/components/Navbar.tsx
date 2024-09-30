@@ -41,7 +41,7 @@ function Navbar() {
                     </button>
                 </div>
                 <div className={`${isNavOpen ? 'absolute left-0 top-full' : 'hidden'} items-center md:block justify-between w-full md:w-auto md:order-1`} id="navbar-cta">
-                    <ul className="flex flex-col font-medium p-4 md:p-0 md:space-x-8 rtl:space-x-reverse md:flex-row md:bg-transparent">
+                    <ul className="flex flex-col font-medium p-4 md:p-0 md:space-x-0 lg:space-x-7 rtl:space-x-reverse md:flex-row md:bg-transparent">
                         {navItems.map((item) => (
                             <li key={item.name}>
                                 <a
