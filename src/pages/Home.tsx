@@ -4,6 +4,7 @@ import ClientLogos from "../components/ClientLogos";
 import Service from "../components/Service";
 import Work from "../components/Work";
 import Support from "../components/Support";
+import Testimonial from "../components/Testimonial";
 
 function Home() {
     return (
@@ -14,6 +15,7 @@ function Home() {
             <Service />
             <Work />
             <Support />
+            <Testimonial />
         </>
     );
 }
