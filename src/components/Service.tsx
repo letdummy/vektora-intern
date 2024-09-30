@@ -3,7 +3,7 @@ import SectionHeading from "./SectionHeading";
 
 function Service() {
     return (
-        <section className="flex flex-col-reverse md:flex-row gap-5 justify-center my-36 mx-3">
+        <section className="flex flex-col-reverse md:flex-row gap-5 justify-center my-36 mx-3 md:mx-24">
             <ServiceList />
             <SectionHeading
                 title="Our Services would be your best fit"

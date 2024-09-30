@@ -15,18 +15,18 @@ function Work() {
                         <img
                             src="/model-1.png"
                             alt="Work Ilustration"
-                            width={300}
+                            width={400}
                             className="mx-auto lg:mx-0 bg-transparent"
                             data-aos-duration="1000"
                             data-aos="fade-up"
                         />
 
                         <img
-                            src="/notif.png"
+                            src="/notif-1.svg"
                             alt="Work Ilustration"
                             className="absolute bottom-32 h-20 -left-5 md:left-1/2 md:bottom-12 lg:-left-10 lg:bottom-20 z-10 bg-transparent"
                             data-aos-delay="500"
-                            data-aos-duration="1200"
+                            data-aos-duration="1000"
                             data-aos="fade-up"
                         />
                     </div>

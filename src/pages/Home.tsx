@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import ClientLogos from "../components/ClientLogos";
 import Service from "../components/Service";
 import Work from "../components/Work";
+import Support from "../components/Support";
 
 function Home() {
     return (
@@ -12,6 +13,7 @@ function Home() {
             <ClientLogos />
             <Service />
             <Work />
+            <Support />
         </>
     );
 }

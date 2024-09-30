@@ -4,7 +4,7 @@ function HeroIllustration() {
     return (
         <section className="relative">
             <img
-                src="/phone-item-1.png"
+                src="/phone-item-1.svg"
                 alt="Hero Ilustration"
                 width={300}
                 className="absolute top-24 -left-5 md:-left-10 z-10"
@@ -23,7 +23,7 @@ function HeroIllustration() {
             />
 
             <img
-                src="/phone-item-2.png"
+                src="/phone-item-2.svg"
                 alt="Hero Ilustration"
                 width={300}
                 className="absolute bottom-32 md:-right-10 -right-7 z-10"
