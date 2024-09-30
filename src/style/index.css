@@ -9,3 +9,24 @@
 .items {
     background-color: #1E1E20;
 }
+
+.custom-shape-divider-bottom-1727705062 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1727705062 svg {
+    position: relative;
+    display: block;
+    width: calc(233% + 1.3px);
+    height: 84px;
+}
+
+.custom-shape-divider-bottom-1727705062 .shape-fill {
+    fill: #1A191C;
+}
