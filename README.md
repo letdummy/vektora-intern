@@ -1,50 +1,98 @@
-# React + TypeScript + Vite
+## <h1 align="center">“Talk is cheap. Show me the code.” ~ Linus Torvalds :thought_balloon: </h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br>
+  <p align="center">
+  <a><img src="https://i.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.webp" alt="image" width="500"></a>
+<br>
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Getting Started](#getting-started)
+- [Folder Structure](#folder-structure)
+- [Scripts](#scripts)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+  
+## Getting Started
 
-## Expanding the ESLint configuration
+To get a copy of this project up and running on your local machine, follow these steps:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Prerequisites
 
-- Configure the top-level `parserOptions` property like this:
+Make sure you have the following installed:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- [Node.js](https://nodejs.org/en/download/) (v14 or later)
+- [npm](https://www.npmjs.com/get-npm) (comes with Node.js)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/letdummy/vektora-intern.git
+   cd halodesigners-intern
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+   This will start the Vite development server, and you can view your app in the browser at link provided by your terminal.
+
+### Build for Production
+
+To create an optimized build of your app, run:
+
+```bash
+npm run build
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+The build artifacts will be stored in the `dist` directory.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Folder Structure
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+Here’s a basic overview of the project structure:
+
 ```
+halodesigners-intern/
+├── public/               # Static files
+├── src/                  # Application source code
+│   ├── components/       # Reusable components
+│   ├── dpages/           # Contain all project's pages
+│   ├── styles/           # CSS/Sass styles
+│   ├── App.tsx           # Main application component
+│   └── main.tsx          # Entry point
+├── index.html            # Main HTML file
+├── package.json          # Project metadata and dependencies
+├── tailwind.config.js    # Tailwind configuration file
+└── tsconfig.json         # TypeScript configuration
+```
+
+## Scripts
+
+In the project directory, you can run:
+
+- `npm run dev`: Starts the development server.
+- `npm run build`: Builds the app for production.
+- `npm run lint`: Lints the code using ESLint.
+- `npm run preview`: Previews the production build locally.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A strict syntactical superset of JavaScript that adds optional static typing.
+- **Vite**: A fast build tool for modern web projects.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **AOS**: A library for adding animations on scroll.
+
+## Contributing
+
+Contributions are welcome!
