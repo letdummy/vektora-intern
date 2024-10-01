@@ -15,7 +15,7 @@ function SupportHeading() {
             </p>
             <div className="flex flex-col gap-3">
                 <img src="/support-item-1.svg" alt="Service Item" className="w-96" data-aos-duration="1000" data-aos="fade-up" />
-                <img src="/support-item-2.svg" alt="Service Item" className="w-96" data-aos-delay="500" data-aos-duration="1000" data-aos="fade-up" />
+                <img src="/support-item-2.svg" alt="Service Item" className="w-96" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" />
             </div>
         </section>
     );

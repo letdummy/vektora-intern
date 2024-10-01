@@ -3,7 +3,7 @@ function SubscriptionForm() {
         <form className="mx-auto max-w-screen-md w-full px-10 flex flex-col gap-5 items">
             <div
                 className="items"
-                data-aos-delay="700"
+                data-aos-delay="300"
                 data-aos-duration="1200"
                 data-aos="fade-up"
             >
@@ -17,7 +17,7 @@ function SubscriptionForm() {
             </div>
             <div
                 className="items"
-                data-aos-delay="900"
+                data-aos-delay="400"
                 data-aos-duration="1200"
                 data-aos="fade-up"
             >
@@ -32,7 +32,7 @@ function SubscriptionForm() {
             <button
                 type="submit"
                 className="text-white bg-orange-600 hover:bg-orange-700 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center"
-                data-aos-delay="1100"
+                data-aos-delay="500"
                 data-aos-duration="1200"
                 data-aos="fade-up"
             >

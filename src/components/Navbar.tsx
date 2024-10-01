@@ -9,10 +9,10 @@ function Navbar() {
 
     const navItems = [
         { name: 'What we offer', href: '#', current: true },
-        { name: 'Benefit', href: '#' },
-        { name: 'How it work', href: '#' },
-        { name: 'Support', href: '#' },
-        { name: 'Testimonial', href: '#' },
+        { name: 'Benefit', href: '#benefit' },
+        { name: 'How it work', href: '#work' },
+        { name: 'Support', href: '#support' },
+        { name: 'Testimonial', href: '#testimonial' },
     ];
 
     return (

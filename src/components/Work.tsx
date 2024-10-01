@@ -2,7 +2,7 @@ import SectionHeading from "./SectionHeading";
 
 function Work() {
     return (
-        <section className="relative h-auto bg-no-repeat bg-cover bg-[url('/shape-1.svg')]">
+        <section className="relative h-auto bg-no-repeat bg-cover bg-[url('/shape-1.svg')]" id="work">
             <div className="relative z-10 bg-transparent">
                 <section className="flex justify-center gap-14 lg:gap-40 h-fit p-10 md:p-28 md:py-60 flex-col lg:flex-row bg-transparent" data-aos="fade-up">
                     <SectionHeading
@@ -25,7 +25,7 @@ function Work() {
                             src="/notif-1.svg"
                             alt="Work Ilustration"
                             className="absolute bottom-32 h-20 -left-5 md:left-1/2 md:bottom-12 lg:-left-10 lg:bottom-20 z-10 bg-transparent"
-                            data-aos-delay="500"
+                            data-aos-delay="200"
                             data-aos-duration="1000"
                             data-aos="fade-up"
                         />

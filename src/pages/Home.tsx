@@ -6,6 +6,7 @@ import Work from "../components/Work";
 import Support from "../components/Support";
 import Testimonial from "../components/Testimonial";
 import Subscription from "../components/Subscription";
+import Footer from "../components/Footer";
 
 function Home() {
     return (
@@ -18,6 +19,7 @@ function Home() {
             <Support />
             <Testimonial />
             <Subscription />
+            <Footer />
         </>
     );
 }

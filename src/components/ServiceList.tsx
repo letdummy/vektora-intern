@@ -34,8 +34,8 @@ function ServiceList() {
             {
                 services.map((service, index) => (
                     <section
-                        data-aos-delay={`${index * 300}`}
-                        data-aos-duration="1200"
+                        data-aos-delay={`${index * 200}`}
+                        data-aos-duration="1000"
                         data-aos="fade-up"
                     >
                         <ServiceItem

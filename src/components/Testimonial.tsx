@@ -24,7 +24,7 @@ function Testimonial() {
     ];
 
     return (
-        <section className="relative flex flex-col gap-14 my-20 z-10">
+        <section className="relative flex flex-col gap-14 my-20 z-10" id="testimonial">
             <h3
                 className="max-w-md justify-center mx-4 md:mx-auto text-center text-5xl text-white font-bold"
                 data-aos-delay="500"

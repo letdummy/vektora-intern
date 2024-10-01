@@ -4,6 +4,8 @@
 
 *{
     background-color: #1A191C;
+    scroll-behavior: smooth;
+    scroll-margin: 5rem;
 }
 
 .items {
