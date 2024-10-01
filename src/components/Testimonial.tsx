@@ -24,7 +24,7 @@ function Testimonial() {
     ];
 
     return (
-        <section className="relative flex flex-col gap-14 my-20">
+        <section className="relative flex flex-col gap-14 my-20 z-10">
             <h3
                 className="max-w-md justify-center mx-4 md:mx-auto text-center text-5xl text-white font-bold"
                 data-aos-delay="500"
@@ -63,7 +63,7 @@ function Testimonial() {
                 </p>
             </div>
 
-            <div className="absolute -bottom-32 left-0 w-full overflow-hidden rotate-180 z-20 bg-transparent">
+            <div className="absolute -bottom-[6rem] left-0 w-full overflow-hidden rotate-180 z-10 bg-transparent">
                 <svg
                     data-name="Layer 1"
                     xmlns="http://www.w3.org/2000/svg"
